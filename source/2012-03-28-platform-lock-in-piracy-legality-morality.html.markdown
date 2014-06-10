@@ -1,0 +1,19 @@
+---
+title: Platform lock-in, piracy, legality, morality
+---
+
+I’m not a lawyer, so I’ll try not to discuss the legal standpoint too much. I will make a few comments about my interpretation of the law, but keep in mind, this is not legal advice.
+
+There’s a piece of legislation called the first sale doctrine. Generally, this protects your right to sell something you’ve bought. For example, if I buy a motorcycle from Honda, and then I sell it to a third party 10 years later, I have not infringed any copyrights Honda may have, be they engine design, the manual, etc. The original copy I owned was legal, and I am transferring my legal ownership of that copy to the third party.
+
+Where it becomes interesting, though, is with electronic goods. Say I buy a book from the Kindle Store. After I’ve finished reading it, I think it’s an excellent book and I want to give my copy to a friend to read. I break the DRM if necessary (Digital Millennium Copyright Act allows DRM circumvention in order to access legal content) and send the file to a friend, then destroy my copy. This is just the same as handing my friend the paperback copy, except one important distinction. When I go to a book store, I buy a copy of the book. When I “buy” a book from the Kindle Store, I’m actually buying a strict non-transferable license to the content of the book.
+
+Moving on from legal speculation, I want to talk about my opinion. I think that if I’ve paid $7.99 for a Kindle book, as opposed to $7.99 for a paperback book, I should have every right to treat it as a paperback book. If this means that I want to pass the book on to a friend, I think that’s totally fine. I think that as long as I destroy all copies of my eBook after giving it away, then it should be viewed just the same. I started out possessing a copy where my friend did not, and now he possess a copy while I do not.
+
+There’s also the issue of platform lock-in. For instance, before I bought my Kindle, I bought several books from Apple’s iBookstore. These books are in a proprietary ePub format with proprietary DRM that couldn’t be cracked until recently. Now that they can be cracked, I can legally transfer them to my Kindle, but before I would need to re-purchase the book or otherwise re-aquire it. This is akin to buying a paperback book, getting glasses, and being told you need to buy a new copy if you want to read it with glasses on.
+
+This concept also applies to going between the worlds of electronic and tangible goods. If I buy a physical copy of “Programming Clojure”, an outdated programming book, for $10, then I think I should be entitled to also read this on my Kindle. The person I bought it from has already paid the publisher and author, and I now own their fully paid for copy. Although forcing multiple formats to transferred together as a single copy would be difficult, I don’t think I should need to repurchase or re-aquire so I can take my book to school without carrying all of the weight.
+
+I said “re-aquire”, avoiding the word “piracy”. Calling it “piracy” tries to liken it to the piracy committed by actual pirates. Essentially, they come on to your ship and steal your goods, and if you’re lucky, they also shoot your crew. This re-aquiring is more like “bootlegging”, recording a concert with a tape recorder in your boot. Doing that does not detract from anyone else’s experiences, and certainly doesn’t kill anyone. It’s still illegal, of course, but not on the same scale.
+
+So, in closing, I want to re-state my two points. First, electronic goods should be treated the same way as tangible goods. I should be able to give my books to a friend after reading them. Second, I should be able to take my content from one platform to another freely, including between electronic and tangible platforms.

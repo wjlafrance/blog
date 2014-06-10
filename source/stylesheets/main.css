@@ -1,0 +1,52 @@
+body {
+	font-family: 'Georgia, serif';
+	color: #333333;
+	margin: 0;
+}
+
+div#main {
+	padding: 30px 240px 30px 240px;
+}
+
+aside {
+	padding: 30px 240px 30px 240px;
+}
+
+a, a:visited  {
+	color: #333333;
+	font-weight: normal;
+}
+
+header h1 {
+	font-family: 'Courier New';
+	font-size: 3em;
+	background-color: rgb(68, 68, 68);
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 30px 240px 30px 240px;
+	font-weight: normal;
+}
+
+header h1 a, header h1 a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div.articlesummary {
+}
+
+span.datestamp {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+blockquote {
+	border: 1px solid #777777;
+	color: #777777;
+}
+
+pre {
+	border: 1px solid #777777;
+	color: #777777;
+	padding: 1em;
+}
