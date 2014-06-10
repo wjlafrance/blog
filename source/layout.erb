@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>[Blog new];<%= ' - ' + current_article.title unless current_article.nil? %></title>
+		<title>let blog: Blog<%= ' - ' + current_article.title unless current_article.nil? %></title>
 		<%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
 		<%= stylesheet_link_tag "main.css" %>
 	</head>
@@ -10,7 +10,7 @@
 
 		<header>
 			<h1>
-				<%= link_to "[Blog new];", "/" %>
+				<%= link_to "let blog = Blog()", "/" %>
 			</h1>
 		</header>
 
