@@ -4,19 +4,6 @@ body {
 	margin: 0;
 }
 
-div#main {
-	padding: 30px 240px 30px 240px;
-}
-
-aside {
-	padding: 30px 240px 30px 240px;
-}
-
-a, a:visited  {
-	color: #333333;
-	font-weight: normal;
-}
-
 header h1 {
 	font-family: 'Courier New';
 	font-size: 3em;
@@ -27,17 +14,8 @@ header h1 {
 	font-weight: normal;
 }
 
-header h1 a, header h1 a:visited {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-div.articlesummary {
-}
-
-span.datestamp {
-	font-size: 0.9em;
-	font-style: italic;
+aside {
+	padding: 30px 240px 30px 240px;
 }
 
 blockquote {
@@ -49,4 +27,23 @@ pre {
 	border: 1px solid #777777;
 	color: #777777;
 	padding: 1em;
+}
+
+div#main {
+	padding: 30px 240px 30px 240px;
+}
+
+a, a:visited  {
+	color: #111111;
+	font-weight: normal;
+}
+
+header h1 a, header h1 a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+span.datestamp {
+	font-size: 0.9em;
+	font-style: italic;
 }
