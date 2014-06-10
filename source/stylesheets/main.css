@@ -2,6 +2,7 @@ body {
 	font-family: 'Georgia, serif';
 	color: #333333;
 	margin: 0;
+	font-size: 1.3em;
 }
 
 header h1 {
@@ -19,13 +20,16 @@ aside {
 }
 
 blockquote {
-	border: 1px solid #777777;
-	color: #777777;
+	border: 1px solid #cdcdcd;
+	padding: 0.25em 1em 0.25em 1em;
+	box-shadow: 10px 10px 5px #ededed;
+	border-radius: 0.5em;
+	color: #555555;
 }
 
 pre {
-	border: 1px solid #777777;
-	color: #777777;
+	border: 1px solid #555555;
+	color: #555555;
 	padding: 1em;
 }
 
