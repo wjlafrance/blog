@@ -14,41 +14,35 @@
 			</h1>
 		</header>
 
-		<div id="main" role="main">
-			<% if current_article %>
-				<h1>
-					<%= link_to current_article.title, current_article %>
-				</h1>
-			<% end %>
-			<%= yield %>
-			<% if current_article %>
-				<span class="datestamp"><%= current_article.date.strftime('Posted on %B %d, %Y') %></span>
-			<% end %>
+		<div id="content">
+			<div id="main" role="main">
+				<% if current_article %>
+					<h1 class="articletitle">
+						<%= link_to current_article.title, current_article %>
+					</h1>
+					<span class="datestamp"><%= current_article.date.strftime('Posted on %B %d, %Y') %></span>
+				<% end %>
+				<%= yield %>
+			</div>
+
+			<hr>
+
+			<aside>
+				<h3>Recent Articles</h2>
+				<ol>
+					<% blog.articles[0...3].each do |article| %>
+						<li><%= link_to article.title, article %></li>
+					<% end %>
+				</ol>
+
+				<h3>By Year</h2>
+				<ol>
+					<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+						<li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+					<% end %>
+				</ol>
+			</aside>
 		</div>
 
-		<aside>
-			<h3>Recent Articles</h2>
-			<ol>
-				<% blog.articles[0...10].each do |article| %>
-					<li><%= link_to article.title, article %> <!-- <span>(<%= article.date.strftime('%B %e, %Y') %>)</span> --></li>
-				<% end %>
-			</ol>
-
-		<!--
-			<h3>Tags</h3>
-			<ol>
-				<% blog.tags.each do |tag, articles| %>
-					<li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-				<% end %>
-			</ol>
-		-->
-
-			<h3>By Year</h2>
-			<ol>
-				<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-					<li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-				<% end %>
-			</ol>
-		</aside>
 	</body>
 </html>

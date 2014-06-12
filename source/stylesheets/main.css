@@ -1,22 +1,31 @@
 body {
-	font-family: 'Georgia, serif';
 	color: #333333;
 	margin: 0;
-	font-size: 1.3em;
 }
 
 header h1 {
 	font-family: 'Courier New';
-	font-size: 3em;
-	background-color: rgb(68, 68, 68);
-	color: #ffffff;
-	margin: 0 auto;
-	padding: 30px 240px 30px 240px;
+	font-size: 3.5em;
+	background-color: #444444;
+	margin: 0;
+	text-align: center;
+	padding: 0.75em;
 	font-weight: normal;
 }
 
-aside {
-	padding: 30px 240px 30px 240px;
+header h1 a, header h1 a:visited {
+	color: #ededed;
+	text-decoration: none;
+}
+
+.articletitle a, .articletitle a:visited {
+	text-decoration: none;
+}
+
+div#content {
+	font-family: 'Georgia, serif';
+	padding: 2em 10em 2em 10em;
+	font-size: 1.2em;
 }
 
 blockquote {
@@ -28,26 +37,23 @@ blockquote {
 }
 
 pre {
-	border: 1px solid #555555;
-	color: #555555;
-	padding: 1em;
+	border: 1px solid #cdcdcd;
+	box-shadow: 10px 10px 5px #ededed;
+	padding: 0.75em;
 }
 
-div#main {
-	padding: 30px 240px 30px 240px;
+code {
+	font-family: 'Courier New';
+	color: #555555;
+	font-size: 0.8em;
 }
 
 a, a:visited  {
-	color: #111111;
-	font-weight: normal;
+	color: #444444;
 }
 
-header h1 a, header h1 a:visited {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-span.datestamp {
+span.datestamp, span.articlepermalink {
 	font-size: 0.9em;
 	font-style: italic;
 }
+
