@@ -13,9 +13,9 @@ Fusion Drive is the marketing name for a useful application of Core Storage. Cor
 
 To begin, install your physical drives in your Mac. For me, I’m using the 250GB SSD that came with my Early 2011 MacBook Pro 17” along with a 1TB hard disk in the optical bay. In theory, you could use several drives in a Mac Pro. According to an AnandTech article, Apple’s solution only uses 128GB of flash, so this should be plenty sufficient, if not more performant.
 
-Once you’re all built physically, reboot your machine, booting from your Time Machine hard drive. Open a terminal from the Utilities menu. [Following jollyjinx’s examples](http://jollyjinx.tumblr.com/post/34638496292/fusion-drive-on-older-macs-yes-since-apple-has), create your logical volume. Type ‘diskutil list' to find the identifiers for your disks. I'll repeat myself: This will destroy all data on the disks you specify.
+Once you’re all built physically, reboot your machine, booting from your Time Machine hard drive. Open a terminal from the Utilities menu. Following Patrick Stein's [examples](http://jollyjinx.tumblr.com/post/34638496292/fusion-drive-on-older-macs-yes-since-apple-has), create your logical volume. Type `diskutil list` to find the identifiers for your disks. I'll repeat myself: This will destroy all data on the disks you specify.
 
-After running the ‘diskutil cs create' and 'diskutil cs createVolume' commands, close the terminal. Your volume has been created. Now, lets get your data back.
+After running the `diskutil cs create` and `diskutil cs createVolume` commands, close the terminal. Your volume has been created. Now, lets get your data back.
 
 For me, restoring from my backup didn’t work for one reason or another (related to nuking the recovery partition). No matter. Select to reinstall OS X. After setup is complete, use Migration Assistant to restore your backup. This isn’t quite like a Time Machine restore, but close enough for my liking.
 
