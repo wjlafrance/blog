@@ -6,6 +6,8 @@ When Apple announced [Swift](https://en.wikipedia.org/wiki/Swift_(programming_la
 
 Let's take a look at various code samples in different languages and see how they compare to Swift.
 
+READMORE
+
 ---
 
 It would be a violation of software tradition to not start with hello world.
