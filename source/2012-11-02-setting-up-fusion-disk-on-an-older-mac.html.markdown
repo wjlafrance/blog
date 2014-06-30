@@ -2,14 +2,16 @@
 title: Setting up Fusion Disk on an older Mac
 ---
 
+Fusion Drive is the marketing name for a useful application of Core Storage. Core Storage is a [Logical Volume Manager](http://en.wikipedia.org/wiki/Logical_volume_management) for OS X. Although it comes pre-configured on some newer Macs, it's possible to set up on an older Mac as well.
+
+READMORE
+
 Warnings:
 
 - This process is completely destructive of all volumes that are being “fused”. Back up all your data. It WILL be lost.
 - The first drive that fails in your Logical Volume Group may cause the entire group to be unusable. Regularly back up all your data. Obviously, Apple has calculated this to be an acceptable risk of the technology.
 - Removing your optical drive to install a second hard drive will likely void your MacBook’s warranty.
 - This is an advanced topic. If you hose your whole system, I’m not responsible. If you’re afraid of hosing your system, that’s very sensible.
-
-Fusion Drive is the marketing name for a useful application of Core Storage. Core Storage is a [Logical Volume Manager](http://en.wikipedia.org/wiki/Logical_volume_management) for OS X.
 
 To begin, install your physical drives in your Mac. For me, I’m using the 250GB SSD that came with my Early 2011 MacBook Pro 17” along with a 1TB hard disk in the optical bay. In theory, you could use several drives in a Mac Pro. According to an AnandTech article, Apple’s solution only uses 128GB of flash, so this should be plenty sufficient, if not more performant.
 

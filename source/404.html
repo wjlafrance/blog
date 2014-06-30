@@ -3,8 +3,31 @@
 	<head>
 		<meta charset=utf-8>
 		<title>Page not found</title>
+		<link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+		<script>
+			// Google's minifier has a sense of humor.
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-52157304-1', 'wjlafrance.net');
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
-		<p>The content you were looking for cannot be found.</p>
+		<header>
+			<h1>
+				<a href="/">let blog = Blog()</a>
+			</h1>
+		</header>
+
+		<div id="content">
+			<h2 class="articletitle">
+				Error!
+			</h2>
+			<p>The content you were looking for cannot be found. Try returning to <a href="/">the index.</a></p>
+		</div>
 	</body>
 </html>

@@ -2,9 +2,9 @@
 title: Making the iOS Simulator case sensitive
 ---
 
-Hello from [CocoaConf](http://cocoaconf.com)!
+In Dave Koziol’s iOS Debugging session at [CocoaConf](http://cocoaconf.com), he pointed out that the iOS Simulator does not have a case sensitive file system. As the actual device does have a case sensitive file system, this allows bugs to enter your application unnoticed.
 
-In Dave Koziol’s iOS Debugging session, he pointed out that the iOS Simulator does not have a case sensitive file system. As the actual device does have a case sensitive file system, this allows bugs to enter your application unnoticed.
+READMORE
 
 Here’s a few scripts to create and mount a RAM disk in place of the iOS Simulator directory. Please close the simulator completely before running these scripts, and note that this will reset your simulator. You could persist the data if you wanted, but I notice that the simulator gets wonky after too long anyhow.
 

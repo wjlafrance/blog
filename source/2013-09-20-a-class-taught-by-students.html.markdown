@@ -4,6 +4,8 @@ title: A class taught by students
 
 If you’re reading this blog, you probably know that I’m a graduate of [Madison Area Technical College](http://madisoncollege.edu)’s [iOS development program](http://madisoncollege.edu/files/program-sheets/it-iphone-applications-development-certificate.pdf). I’ve completed the final course in the series as both a student and an auditor, and I am taking the class again, this time again as a student. This means that I will be completing the assignments and in-class activities, and will receive a grade that will go on my college transcript (though as a working professional, that’s probably not of much consequence anymore).
 
+READMORE
+
 What intrigues me to take the course again is that the instructor, [Eric Knapp](https://alpha.app.net/ejknapp), is taking a new approach. From the syllabus:
 
 > - Students will create and deliver at least two presentations to the class on iOS or an iOS related technology. These can take many forms such as live classroom presentations, videos, screencasts, written articles, etc.

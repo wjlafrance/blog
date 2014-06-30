@@ -6,6 +6,8 @@ I'm starting a new project.
 
 If you've used the internet, you may have heard of [John](https://en.wikipedia.org/wiki/John_Green_(author)) and [Hank Green](https://en.wikipedia.org/wiki/Hank_Green), the [VlogBrothers](https://en.wikipedia.org/wiki/VlogBrothers). If you haven't heard of them by that name, you've probably at least seen one of [their videos on YouTube](https://www.youtube.com/user/vlogbrothers). They started a project on the [first day](https://www.youtube.com/watch?v=vtyXbTHKhI0) of 2007, called *[Brotherhood 2.0](http://nerdfighteria.info/entry/1116)*.
 
+READMORE
+
 The project was for John and Hank to rebuild their relationship, which they left behind when they moved away from home, as most siblings do these days. They would take turns, each week day, making a video roughly 3 to 4 minutes long, talking to the other brother. If they missed a day, or communicated via text (email, instant message, etc) they would be [punished](https://www.youtube.com/watch?v=ptjMRDUX744), which happened fairly regularly. Throughout the project, the brothers would give each other challenges, and one challenge was for Hank to write and perform a new song every Wednesday on which he made a video. He [accomplished this challenge](https://www.youtube.com/watch?v=CvvFiZyEyTA), and released [his first album](https://itunes.apple.com/us/album/so-jokes/id303875663) in 2009.
 
 I'm not sure if I'll accomplish the same greatness, but since I haven't written in over half a year, so I think it's time that I give myself some constraints. My new project is to write an article every week. Like Brotherhood 2.0, I'm going to have rules as well.
