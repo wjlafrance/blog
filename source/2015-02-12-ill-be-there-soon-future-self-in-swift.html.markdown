@@ -1,5 +1,5 @@
 ---
-title: I'll be there soon: a future self in Swift
+title: I'll be there soon - a future self in Swift
 ---
 
 Working with Cocoa APIs in Swift is a mostly pleasant experience, even more so with the [upcoming Objective-C changes](https://developer.apple.com/swift/blog/?id=22) to express nullability.
