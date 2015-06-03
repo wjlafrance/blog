@@ -98,7 +98,7 @@ Swift:
         var hours: Int { return self.minutes * 60 }
     }
 
-    var timeInterval = 3.hours + 2.minutes + 15.seconds
+    let timeInterval = 3.hours + 2.minutes + 15.seconds
 
 ---
 
@@ -120,7 +120,7 @@ Objective-C:
 
 Swift:
 
-    var people = ["Alice", "Bob", "Charlie", "Deb"]
+    let people = ["Alice", "Bob", "Charlie", "Deb"]
     for person in people {
         println("Hello \(person)")
     }
@@ -161,7 +161,7 @@ Swift incorporates this syntax as well.
 
     var a = 15
     var b = 30
-    (a, b) = (a, b)
+    (b, a) = (a, b)
     println("a = \(a), b = \(b)")
 
 ---
